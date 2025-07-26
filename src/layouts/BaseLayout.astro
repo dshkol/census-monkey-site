@@ -1,0 +1,180 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const { title, description = "AI-generated social science research using US Census data", ogImage } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Crimson+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Census Monkey Typewriter" />
+    {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.url)} />}
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={new URL(ogImage, Astro.url)} />}
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#0ea5e9" />
+  </head>
+  <body class="bg-gradient-to-br from-secondary-50 via-white to-primary-50 min-h-screen font-sans">
+    <!-- Skip to main content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary-600 text-white px-4 py-2 rounded-md z-50">
+      Skip to main content
+    </a>
+    
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-40 w-full backdrop-blur-md bg-white/90 border-b border-secondary-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <a href="/" class="flex items-center space-x-3 group">
+              <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
+                <span class="text-white font-bold text-sm">CM</span>
+              </div>
+              <div>
+                <span class="text-xl font-bold text-secondary-900 group-hover:text-primary-600 transition-colors">
+                  Census Monkey
+                </span>
+                <span class="text-sm text-secondary-600 block leading-none">Typewriter</span>
+              </div>
+            </a>
+          </div>
+          
+          <!-- Navigation Links -->
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-8">
+              <a href="/" class="text-secondary-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
+                Home
+              </a>
+              <a href="/analyses/" class="text-secondary-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
+                Analyses
+              </a>
+              <a href="/about/" class="text-secondary-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
+                About
+              </a>
+              <a href="/methodology/" class="text-secondary-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">
+                Methodology
+              </a>
+            </div>
+          </div>
+          
+          <!-- Mobile menu button -->
+          <div class="md:hidden">
+            <button type="button" class="text-secondary-700 hover:text-primary-600 p-2" id="mobile-menu-button" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-secondary-200">
+          <a href="/" class="text-secondary-700 hover:text-primary-600 block px-3 py-2 text-base font-medium">Home</a>
+          <a href="/analyses/" class="text-secondary-700 hover:text-primary-600 block px-3 py-2 text-base font-medium">Analyses</a>
+          <a href="/about/" class="text-secondary-700 hover:text-primary-600 block px-3 py-2 text-base font-medium">About</a>
+          <a href="/methodology/" class="text-secondary-700 hover:text-primary-600 block px-3 py-2 text-base font-medium">Methodology</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-secondary-300 mt-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <!-- About -->
+          <div class="col-span-1 md:col-span-2">
+            <div class="flex items-center space-x-3 mb-4">
+              <div class="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
+                <span class="text-white font-bold text-sm">CM</span>
+              </div>
+              <span class="text-xl font-bold text-white">Census Monkey Typewriter</span>
+            </div>
+            <p class="text-secondary-400 max-w-md">
+              Experimental AI-generated social science research using US Census data. 
+              A collaboration between humans and large language models to explore novel hypotheses.
+            </p>
+          </div>
+          
+          <!-- Quick Links -->
+          <div>
+            <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a href="/analyses/" class="hover:text-primary-400 transition-colors">All Analyses</a></li>
+              <li><a href="/methodology/" class="hover:text-primary-400 transition-colors">Methodology</a></li>
+              <li><a href="/about/" class="hover:text-primary-400 transition-colors">About</a></li>
+            </ul>
+          </div>
+          
+          <!-- Categories -->
+          <div>
+            <h3 class="text-white font-semibold mb-4">Categories</h3>
+            <ul class="space-y-2">
+              <li><a href="/analyses/?category=serious" class="hover:text-primary-400 transition-colors">Serious</a></li>
+              <li><a href="/analyses/?category=exploratory" class="hover:text-primary-400 transition-colors">Exploratory</a></li>
+              <li><a href="/analyses/?category=whimsical" class="hover:text-primary-400 transition-colors">Whimsical</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="border-t border-secondary-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p class="text-secondary-400 text-sm">
+            &copy; 2025 Census Monkey Typewriter. Experimental AI-generated research.
+          </p>
+          <p class="text-secondary-400 text-sm mt-2 md:mt-0">
+            Part of <a href="https://dshkol.com" class="text-primary-400 hover:text-primary-300 transition-colors">dshkol.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+          const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+          mobileMenuButton.setAttribute('aria-expanded', (!isExpanded).toString());
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    </script>
+  </body>
+</html>
