@@ -1,0 +1,16 @@
+
+> census-monkey-site@0.0.1 dev
+> astro dev
+
+15:42:22 [types] Generated 0ms
+15:42:22 [content] Syncing content
+15:42:22 [content] Synced content
+15:42:22 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v5.12.3 ready in 317 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+15:42:22 watching for file changes...
+15:42:26 [200] / 41ms

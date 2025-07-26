@@ -5,16 +5,11 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[[redirects]]
-  from = "/cmt/*"
-  to = "/cmt/:splat"
-  status = 200
-
-# Handle base path routing
+# Single Page Application fallback for client-side routing
 [[redirects]]
   from = "/*"
-  to = "/cmt/:splat"
-  status = 301
+  to = "/index.html"
+  status = 200
 
 [context.production]
   command = "npm run build"

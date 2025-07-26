@@ -1,20 +1,51 @@
-// @ts-check
-import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
-import tailwind from '@astrojs/tailwind';
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
+import sitemap from "@astrojs/sitemap";
+import mdx from "@astrojs/mdx";
+import remarkToc from "remark-toc";
+import remarkCollapse from "remark-collapse";
+import {
+  transformerNotationDiff,
+  transformerNotationHighlight,
+  transformerNotationWordHighlight,
+} from "@shikijs/transformers";
+import { transformerFileName } from "./src/utils/transformers/fileName";
+import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: SITE.website,
   integrations: [
     mdx(),
-    tailwind()
+    sitemap({
+      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+    }),
   ],
-  site: 'https://censusmonkeytypewriter.netlify.app',
-  // base: '/cmt', // Commented out for direct Netlify deployment
   markdown: {
+    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
-      theme: 'github-light',
-      wrap: true
-    }
-  }
+      themes: { light: "min-light", dark: "night-owl" },
+      defaultColor: false,
+      wrap: false,
+      transformers: [
+        transformerFileName({ style: "v2", hideDot: false }),
+        transformerNotationHighlight(),
+        transformerNotationWordHighlight(),
+        transformerNotationDiff({ matchAlgorithm: "v3" }),
+      ],
+    },
+  },
+  vite: {
+    plugins: [tailwindcss()],
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"],
+    },
+  },
+  image: {
+    responsiveStyles: true,
+    layout: "constrained",
+  },
+  experimental: {
+    preserveScriptOrder: true,
+  },
 });
