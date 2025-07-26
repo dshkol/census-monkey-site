@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
-import tailwindcss from "@tailwindcss/vite";
+import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import remarkToc from "remark-toc";
@@ -17,6 +17,7 @@ export default defineConfig({
   site: SITE.website,
   integrations: [
     mdx(),
+    tailwind(),
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
@@ -36,7 +37,6 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [tailwindcss()],
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
