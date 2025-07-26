@@ -9,8 +9,8 @@ export default defineConfig({
     mdx(),
     tailwind()
   ],
-  site: 'https://dshkol.com',
-  base: '/cmt',
+  site: 'https://censusmonkeytypewriter.netlify.app',
+  // base: '/cmt', // Commented out for direct Netlify deployment
   markdown: {
     shikiConfig: {
       theme: 'github-light',
