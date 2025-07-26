@@ -1,0 +1,121 @@
+---
+import { getCollection } from 'astro:content';
+
+const analyses = await getCollection('analyses');
+const sortedAnalyses = analyses
+  .filter(analysis => !analysis.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const categorizedAnalyses = {
+  serious: sortedAnalyses.filter(a => a.data.category === 'serious'),
+  exploratory: sortedAnalyses.filter(a => a.data.category === 'exploratory'),
+  whimsical: sortedAnalyses.filter(a => a.data.category === 'whimsical'),
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="AI-generated social science research using US Census data" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Census Monkey Typewriter</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+    <header class="bg-white shadow-sm border-b">
+      <div class="max-w-6xl mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+          Census Monkey Typewriter
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl">
+          Experimental AI-generated social science research using US Census data. 
+          A collaboration between humans and large language models to explore novel 
+          hypotheses and analytical approaches.
+        </p>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <div class="grid gap-12">
+        {Object.entries(categorizedAnalyses).map(([category, categoryAnalyses]) => (
+          categoryAnalyses.length > 0 && (
+            <section>
+              <h2 class={`text-2xl font-bold mb-6 capitalize ${
+                category === 'serious' ? 'text-blue-800' :
+                category === 'exploratory' ? 'text-green-800' :
+                'text-purple-800'
+              }`}>
+                {category} Analyses
+              </h2>
+              
+              <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {categoryAnalyses.map((analysis) => (
+                  <article class="bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
+                    <div class="p-6">
+                      <div class="flex items-center gap-2 mb-3">
+                        <span class={`px-2 py-1 text-xs font-medium rounded-full ${
+                          category === 'serious' ? 'bg-blue-100 text-blue-800' :
+                          category === 'exploratory' ? 'bg-green-100 text-green-800' :
+                          'bg-purple-100 text-purple-800'
+                        }`}>
+                          {category}
+                        </span>
+                        <time class="text-gray-500 text-xs">
+                          {analysis.data.date.toLocaleDateString('en-US', { 
+                            month: 'short', 
+                            day: 'numeric'
+                          })}
+                        </time>
+                      </div>
+                      
+                      <h3 class="text-lg font-semibold text-gray-900 mb-3 leading-tight">
+                        <a href={`/cmt/analyses/${analysis.slug}/`} class="hover:text-blue-600 transition-colors">
+                          {analysis.data.title}
+                        </a>
+                      </h3>
+                      
+                      <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        {analysis.data.summary}
+                      </p>
+                      
+                      {analysis.data.tags.length > 0 && (
+                        <div class="flex flex-wrap gap-1">
+                          {analysis.data.tags.slice(0, 3).map(tag => (
+                            <span class="bg-gray-100 text-gray-600 px-2 py-1 text-xs rounded">
+                              #{tag}
+                            </span>
+                          ))}
+                          {analysis.data.tags.length > 3 && (
+                            <span class="text-gray-400 text-xs px-2 py-1">
+                              +{analysis.data.tags.length - 3} more
+                            </span>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )
+        ))}
+      </div>
+
+      {sortedAnalyses.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-gray-500 text-lg">No analyses available yet.</p>
+        </div>
+      )}
+    </main>
+
+    <footer class="bg-gray-100 mt-16">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-center text-gray-600">
+        <p>&copy; 2025 Census Monkey Typewriter. Experimental AI-generated research.</p>
+        <p class="mt-2 text-sm">
+          Part of <a href="https://dshkol.com" class="text-blue-600 hover:underline">dshkol.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
