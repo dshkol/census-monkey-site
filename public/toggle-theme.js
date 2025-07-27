@@ -17,29 +17,30 @@ function setPreference() {
 function reflectPreference() {
   document.firstElementChild.setAttribute("data-theme", themeValue);
   document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
+  
+  // Update the visual state of the toggle button
+  const themeBtn = document.querySelector("#theme-btn");
+  if (themeBtn) {
+    if (themeValue === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }
 }
 
 // set early so no page flashes / CSS is made aware
 reflectPreference();
 
 window.onload = () => {
-  function setThemeFeature() {
-    reflectPreference();
-    document.querySelector("#theme-btn")?.addEventListener("click", () => {
-      themeValue = themeValue === "light" ? "dark" : "light";
-      setPreference();
-    });
-  }
-  setThemeFeature();
-
-  // Whenever the user explicitly chooses light mode
-  document.querySelector("#theme-btn")?.addEventListener("click", () => setThemeFeature());
-
-  // Whenever the user explicitly chooses dark mode
-  document.querySelector("#theme-btn")?.addEventListener("click", () => setThemeFeature());
-
-  // Whenever the user explicitly chooses to respect the OS preference
-  document.querySelector("#theme-btn")?.addEventListener("click", () => setThemeFeature());
+  // Single event listener for theme toggle
+  document.querySelector("#theme-btn")?.addEventListener("click", () => {
+    themeValue = themeValue === "light" ? "dark" : "light";
+    setPreference();
+  });
+  
+  // Initial reflection
+  reflectPreference();
 };
 
 // sync with system changes
