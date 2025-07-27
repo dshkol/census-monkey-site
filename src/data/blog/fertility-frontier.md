@@ -8,6 +8,8 @@ category: "exploratory"
 featured: false
 ---
 
+> **⚠️ AI-Generated Analysis Notice**: This analysis was produced by an AI system (Census Monkey Typewriter) and should be interpreted as experimental research. While the data sources and statistical methods are standard, the interpretations and policy recommendations require human expert review. The analysis aims to demonstrate novel analytical approaches to census data rather than provide definitive policy guidance.
+
 ## America's Hidden Fertility Geography
 
 While national fertility rates plummet to historic lows (US Total Fertility Rate ~1.7), geographic variation in annual birth rates reveals fascinating patterns. Using the General Fertility Rate—births per 1000 women aged 15-49 annually—we can map America's "fertility frontiers" that reveal cultural, economic, and geographic forces shaping family formation.

@@ -285,7 +285,16 @@ const nextPost =
   attachCopyButtons();
 
   /* Go to page start after page swap */
-  document.addEventListener("astro:after-swap", () =>
-    window.scrollTo({ left: 0, top: 0, behavior: "instant" })
-  );
+  document.addEventListener("astro:after-swap", () => {
+    window.scrollTo({ left: 0, top: 0, behavior: "instant" });
+    
+    // Reinitialize theme toggle after navigation
+    const themeValue = localStorage.getItem("theme") || "light";
+    document.firstElementChild.setAttribute("data-theme", themeValue);
+    if (themeValue === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  });
 </script>

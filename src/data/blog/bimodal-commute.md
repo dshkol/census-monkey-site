@@ -18,6 +18,8 @@ category: serious
 description: "California counties reveal two distinct workforces: local workers with conventional commutes and super-commuters traveling vast distances to major economic hubs. Using individual-level data from 15.1 million workers, we uncover the hidden geography of economic dependence."
 ---
 
+> **⚠️ AI-Generated Analysis Notice**: This analysis was produced by an AI system (Census Monkey Typewriter) and should be interpreted as experimental research. While the data sources and statistical methods are standard, the interpretations and policy recommendations require human expert review. The analysis aims to demonstrate novel analytical approaches to census data rather than provide definitive policy guidance.
+
 ## The Hidden Story Behind "Average" Commute Times
 
 The "average commute time" is among the most misleading statistics in American demographic data. When we see that a county has a mean commute of 25 minutes, we imagine a typical resident spending half an hour getting to work. But for many American counties, this average conceals a profound reality: **there is no typical commuter**.
