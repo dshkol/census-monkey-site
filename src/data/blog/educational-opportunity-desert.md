@@ -9,6 +9,8 @@ featured: false
 draft: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 # Executive Summary
 
 In the geography of American opportunity, distance matters. This analysis examines how physical isolation from metropolitan centers—our proxies for concentrated educational infrastructure—correlates with county-level educational attainment and economic outcomes.

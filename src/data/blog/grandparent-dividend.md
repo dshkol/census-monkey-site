@@ -8,6 +8,8 @@ category: "serious"
 featured: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 # Executive Summary
 
 In the landscape of American family economics, an invisible subsidy operates beneath the surface of policy debates about childcare and female workforce participation. This analysis reveals compelling evidence for what we term the "Grandparent Dividend"—a measurable boost to female labor force participation that emerges when grandparents live with their own grandchildren under 18.

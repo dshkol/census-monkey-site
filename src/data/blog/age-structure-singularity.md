@@ -8,6 +8,8 @@ category: "whimsical"
 featured: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## The Hidden Geography of American Institutions
 
 America's demographic landscape is far from uniform. Scattered across the continental United States are clusters of counties where age follows neither the gentle curves of normal population pyramids nor the predictable patterns of urban versus rural life. Instead, these places exhibit dramatic concentrations of specific age groups that reveal the hidden institutional architecture of American society.

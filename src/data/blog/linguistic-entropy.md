@@ -15,7 +15,7 @@ description: "Testing whether linguistic diversity measured through Shannon entr
 category: "serious"
 ---
 
-> **⚠️ AI-Generated Analysis Notice**: This analysis was produced by an AI system (Census Monkey Typewriter) as part of an experiment in automated social science research. While it uses real US Census data and established statistical methods, the analysis should be treated with appropriate skepticism. The findings have not undergone peer review, may contain methodological limitations, and should not be used for policy decisions without independent verification. Please read the [project description](/post/census-monkey-typewriter/) for more details about this experimental system.
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## The Innovation Hypothesis
 

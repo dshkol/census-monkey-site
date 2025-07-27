@@ -8,6 +8,8 @@ category: "whimsical"
 featured: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## The Hidden Geography of Reported Ancestry
 
 Most of America is a demographic stew, where Irish mixes with German, Italian blends with Polish, and Swedish mingles with Norwegian in the great melting pot of ancestry reporting. But scattered across the continental United States are remarkable exceptions—counties where a single reported ancestry dominates so completely that they represent living monuments to specific waves of immigration and settlement.

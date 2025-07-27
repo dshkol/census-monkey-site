@@ -17,6 +17,8 @@ description: "An analysis of demographic momentum across 2,825 American counties
 category: "exploratory"
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## The Physics of Population Change
 
 Demographics operate like physics—populations in motion tend to stay in motion. A county filled with young families generates momentum through births and economic activity that persists for decades. An aging rural county loses momentum as deaths outnumber births and young adults migrate away, creating a self-reinforcing cycle of decline that proves difficult to reverse.

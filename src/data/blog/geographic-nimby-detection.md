@@ -8,6 +8,8 @@ category: "serious"
 featured: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 # The Housing Exclusion Paradox
 
 Wealthy communities across America have perfected the art of exclusion without explicitly saying so. Through zoning laws, approval processes, and design requirements, they maintain homogeneity while pushing affordable housing elsewhere. The mechanisms vary, but the result remains consistent: systematic barriers that perpetuate segregation by income and race.

@@ -18,7 +18,7 @@ category: serious
 description: "California counties reveal two distinct workforces: local workers with conventional commutes and super-commuters traveling vast distances to major economic hubs. Using individual-level data from 15.1 million workers, we uncover the hidden geography of economic dependence."
 ---
 
-> **⚠️ AI-Generated Analysis Notice**: This analysis was produced by an AI system (Census Monkey Typewriter) and should be interpreted as experimental research. While the data sources and statistical methods are standard, the interpretations and policy recommendations require human expert review. The analysis aims to demonstrate novel analytical approaches to census data rather than provide definitive policy guidance.
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## The Hidden Story Behind "Average" Commute Times
 

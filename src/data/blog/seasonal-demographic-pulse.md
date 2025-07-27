@@ -8,6 +8,8 @@ category: "exploratory"
 featured: false
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## The Rhythm Behind the Numbers
 
 Most demographic analysis treats population as a steady-state phenomenon—counting people as if they were permanently planted in place. But America pulses with seasonal rhythms that fundamentally reshape communities throughout the year. **3,079** counties reveal dramatic seasonal swings in housing occupancy, employment patterns, and population composition that standard demographic measures miss entirely.

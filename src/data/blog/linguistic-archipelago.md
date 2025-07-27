@@ -15,6 +15,8 @@ description: "How Geographic Patterns of Language Use Shape Economic Mobility - 
 category: "serious"
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## The Paradox of Linguistic Islands
 
 In 2019, 69 American counties had something unusual: they were linguistic islands—places where a non-English language dominated far more than anywhere else in their state. Conventional wisdom suggests these isolated communities would struggle economically, cut off from mainstream American economic networks.

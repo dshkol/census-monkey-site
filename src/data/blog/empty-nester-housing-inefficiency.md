@@ -16,6 +16,8 @@ description: "A geographic analysis examining housing size mismatches among olde
 category: "serious"
 ---
 
+> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+
 ## Executive Summary
 
 The Empty Nester Housing Inefficiency Index reveals a significant geographic pattern of housing resource misallocation across American metropolitan areas. Our analysis of Public Use Microdata Areas (PUMAs) demonstrates that **32.4% of households led by individuals aged 60 and older occupy homes with 4 or more bedrooms**, representing approximately 12.8 million households nationwide with potential excess housing capacity.
