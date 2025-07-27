@@ -16,7 +16,7 @@ description: "A geographic analysis examining housing size mismatches among olde
 category: "serious"
 ---
 
-> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+> ⚠️ This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## Executive Summary
 

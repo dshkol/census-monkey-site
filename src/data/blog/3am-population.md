@@ -19,7 +19,7 @@ category: whimsical
 description: "When most Americans begin their commute between 7-9 AM, a hidden population of 7.5% of workers departs for their jobs in the early morning darkness. This analysis maps America's 3am population to understand where night work concentrates and whether it creates unexpected patterns of urban vitality."
 ---
 
-> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+> ⚠️ This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## When Cities Don't Sleep: Mapping America's Night Shift Economy
 

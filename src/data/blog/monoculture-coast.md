@@ -8,7 +8,7 @@ category: "whimsical"
 featured: false
 ---
 
-> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+> ⚠️ This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## The Hidden Geography of Reported Ancestry
 

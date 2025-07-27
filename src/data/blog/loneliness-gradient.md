@@ -21,7 +21,7 @@ category: serious
 description: "Rural areas, not suburbs, show the highest social isolation risk according to California Census data analysis. Using a multidimensional isolation index across 8,968 tracts, we uncover why settlement density creates systematic patterns in community social health."
 ---
 
-> **⚠️ AI-Generated Content Warning**: This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
+> ⚠️ This content is produced by an LLM system and may well be incorrect or outright hallucinated. Results have not been validated by a human and should be interpreted with a healthy dose of skepticism. **⚠️**
 
 ## Executive Summary
 
