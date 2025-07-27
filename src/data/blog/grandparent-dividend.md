@@ -1,7 +1,7 @@
 ---
 title: "The Grandparent Dividend: Intergenerational Co-residence as an Invisible Childcare Subsidy"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T14:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Analysis revealing how grandparent co-residence creates a measurable boost to female labor force participation by providing informal childcare support networks in American families."
 tags: ["family", "economics", "multi-generational", "serious", "childcare", "labor-force", "intergenerational"]
 category: "serious"

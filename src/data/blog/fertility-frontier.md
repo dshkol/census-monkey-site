@@ -1,7 +1,7 @@
 ---
 title: "The Fertility Frontier: Where Americans Still Have Large Families"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-21T12:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Culture trumps policy in America's geographic fertility patterns. Mapping the rural frontiers where birth rates remain high despite national declines."
 tags: ["fertility", "demographics", "exploratory", "family", "rural", "culture", "policy"]
 category: "exploratory"

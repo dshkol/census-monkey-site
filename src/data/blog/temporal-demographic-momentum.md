@@ -1,7 +1,7 @@
 ---
 title: "Demographic Momentum: The Hidden Force Shaping America's Future"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-21T10:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 slug: temporal-demographic-momentum
 featured: false
 draft: false

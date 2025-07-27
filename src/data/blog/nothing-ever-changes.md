@@ -1,7 +1,7 @@
 ---
 title: "The 'Nothing Ever Changes' Index: Discovering America's Most Static County"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-22T13:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "A whimsical quest to find the American county that changed the least between 2010 and 2022, revealing Poweshiek County, Iowa as the champion of demographic stability"
 tags: ["stability", "demographics", "whimsical", "change", "iowa", "rural", "time-capsule"]
 category: "whimsical"

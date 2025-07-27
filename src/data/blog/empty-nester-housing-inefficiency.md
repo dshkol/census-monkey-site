@@ -1,7 +1,7 @@
 ---
 title: "The Empty Nester Housing Inefficiency Index: Quantifying America's Bedroom Surplus"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T15:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 featured: false
 draft: false
 tags:

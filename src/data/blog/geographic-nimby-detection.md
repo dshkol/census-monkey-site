@@ -1,7 +1,7 @@
 ---
 title: "The Housing Exclusion Index: Machine Learning Reveals America's Most Restrictive Places"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T13:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Using demographic proxies and Census data to identify communities systematically restricting housing diversity through zoning, approval processes, and policy barriers that perpetuate segregation by income and race."
 tags: ["housing", "nimby", "zoning", "california", "serious", "machine-learning", "demographics", "exclusion"]
 category: "serious"

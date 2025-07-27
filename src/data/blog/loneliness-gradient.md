@@ -1,7 +1,7 @@
 ---
 title: "The Loneliness Gradient: Social Isolation by Settlement Density"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T16:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 modDatetime: 2024-07-20T16:00:00Z
 slug: loneliness-gradient
 featured: false

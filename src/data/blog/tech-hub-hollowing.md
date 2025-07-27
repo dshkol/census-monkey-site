@@ -1,7 +1,7 @@
 ---
 title: "Second-tier Tech Hubs Kept Their Workers: Evidence Against Demographic Hollowing"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T10:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Comprehensive analysis of 939 metropolitan areas reveals that tech concentration increases workforce diversity rather than creating demographic hollowing"
 tags: ["tech-hubs", "workforce", "diversity", "housing", "demographics", "serious"]
 category: "serious"

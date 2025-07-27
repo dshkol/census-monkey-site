@@ -1,7 +1,7 @@
 ---
 title: "The 3am Population: Night Shift Workers and Urban Vitality"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-22T10:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 modDatetime: 2024-07-22T10:00:00Z
 slug: 3am-population
 featured: false

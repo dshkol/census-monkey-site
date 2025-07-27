@@ -1,7 +1,7 @@
 ---
 title: "The Bimodal Commute: Unmasking Super-Commuters and Local Workers"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T12:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 modDatetime: 2024-07-20T12:00:00Z
 slug: bimodal-commute
 featured: false

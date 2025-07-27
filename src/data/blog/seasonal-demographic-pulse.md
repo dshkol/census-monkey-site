@@ -1,7 +1,7 @@
 ---
 title: "America's Seasonal Pulse: The Hidden Rhythms of Demographic Life"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-21T11:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Discover how 500+ counties experience dramatic seasonal population swings that fundamentally reshape communities throughout the year, from mountain resort towns to agricultural heartlands."
 tags: ["seasonal", "migration", "exploratory", "population", "demographics", "tourism", "agriculture", "housing", "employment"]
 category: "exploratory"

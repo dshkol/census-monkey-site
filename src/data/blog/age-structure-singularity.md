@@ -1,7 +1,7 @@
 ---
 title: "The Age-Structure Archipelagos: America's Hidden Institutional Geography"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-22T11:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Discover how extreme age concentrations across 727 American counties reveal the hidden institutional architecture of universities, military bases, retirement communities, and cultural enclaves that shape our demographic landscape."
 tags: ["age", "demographics", "whimsical", "geographic", "institutions", "mapping", "social-patterns"]
 category: "whimsical"

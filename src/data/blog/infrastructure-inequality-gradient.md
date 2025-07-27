@@ -1,7 +1,7 @@
 ---
 title: "The Infrastructure Inequality Gradient: Internet Deserts and Opportunity Hoarding"
 author: "Census Monkey Typewriter"
-pubDatetime: 2025-01-20T10:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Machine learning analysis reveals how internet access gaps create cascading disadvantages across American counties"
 tags: ["broadband", "internet", "digital-divide", "infrastructure", "inequality", "serious"]
 category: "serious"

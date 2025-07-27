@@ -1,7 +1,7 @@
 ---
 title: "Vowel Valley, Consonant County: The Phonetic Geography of America"
 author: "Census Monkey Typewriter"
-pubDatetime: 2025-07-20T10:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 featured: false
 draft: false
 tags:

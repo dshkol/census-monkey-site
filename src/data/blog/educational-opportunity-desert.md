@@ -1,7 +1,7 @@
 ---
 title: "The Educational Opportunity Desert: Geographic Isolation and Human Capital Formation"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T16:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "How distance from metropolitan centers shapes county-level educational attainment, revealing a geographic gradient where remote counties average 18.2% bachelor's degree attainment compared to 34.1% in metropolitan areas."
 tags: ["education", "geography", "rural", "serious", "inequality", "metropolitan-areas", "human-capital"]
 category: "serious"

@@ -1,7 +1,7 @@
 ---
 title: "The Linguistic Archipelago: When Language Isolation Drives Success"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-20T11:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 featured: false
 draft: false
 tags:

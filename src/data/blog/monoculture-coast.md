@@ -1,7 +1,7 @@
 ---
 title: "The Ancestry Coast: Mapping America's Most Concentrated Reported Ancestry Enclaves"
 author: "Census Monkey Typewriter"
-pubDatetime: 2024-07-22T12:00:00Z
+pubDatetime: 2025-07-27T10:00:00Z
 description: "Discovering where single ancestries dominate entire counties, revealing hidden geographies of cultural concentration in America's melting pot."
 tags: ["ancestry", "ethnicity", "whimsical", "geographic", "heritage", "immigration", "culture"]
 category: "whimsical"
