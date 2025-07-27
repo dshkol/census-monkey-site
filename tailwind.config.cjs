@@ -18,6 +18,13 @@ module.exports = {
       sm: "640px",
     },
     extend: {
+      colors: {
+        background: withOpacity("--color-fill"),
+        foreground: withOpacity("--color-text-base"),
+        accent: withOpacity("--color-accent"),
+        muted: withOpacity("--color-card"),
+        border: withOpacity("--color-border"),
+      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),
