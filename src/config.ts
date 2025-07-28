@@ -1,13 +1,13 @@
 export const SITE = {
   website: "https://censusmonkeytypewriter.netlify.app/",
-  author: "Census Monkey Typewriter",
+  author: "Dmitry Shkolnik",
   profile: "https://censusmonkeytypewriter.netlify.app/",
   desc: "Continuous feed of LLM-generated hypothesis-driven data explorations of American society using Census Bureau data.",
   title: "Census Monkey Typewriter",
   ogImage: "census-monkey-og.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 6,
-  postPerPage: 8,
+  postPerIndex: 8,
+  postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   showBackButton: true, // show back button in post detail
